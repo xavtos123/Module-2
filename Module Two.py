@@ -2,13 +2,6 @@
 # coding: utf-8
 
 # # Module Two Discussion: The Central Limit Theorem
-# 
-# This notebook contains the step-by-step directions for your Module Two discussion. It is very important to run through the steps in order. Some steps depend on the outputs of earlier steps. Once you have completed the steps in this notebook, be sure to answer the questions about this activity in the Discussion for this module.
-# 
-# Reminder: If you have not already reviewed the discussion prompt, please do so before beginning this activity. That will give you an idea of the questions you will need to answer with the outputs of this script.
-
-# 
-# ## Initial post (due Thursday)
 # _____________________________________________________________________________________________________________________________________________________
 
 # ### Step 1: Generating population data
