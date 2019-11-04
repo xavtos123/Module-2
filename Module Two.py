@@ -12,9 +12,6 @@
 # _____________________________________________________________________________________________________________________________________________________
 
 # ### Step 1: Generating population data
-# This block of Python code will generate unique TPCP population data of size 500 observations. You will use this data set in this week's discussion. The numpy module in Python can be used to create datasets with a skewed distribution by randomly generating data from a gamma distribution. You do not need to know what a gamma distribution is or how a dataset is drawn from it. The dataset will be saved in a Python dataframe that you will use in later calculations. 
-# 
-# Click the block of code below and hit the **Run** button above.
 
 # In[1]:
 
@@ -40,10 +37,8 @@ print(tpcp_df)
 #  
 
 # ### Step 2: Creating a histogram plot of population data
-# You will use the matplotlib module in Python to create a histogram plot of the population data from Step 1. This plot allows you to visualize the population data distribution and confirm that it is skewed. You will use 50 bins in the histogram to display the distribution. 
+# I will use the matplotlib module in Python to create a histogram plot of the population data from Step 1. This plot allows me to visualize the population data distribution and confirm that it is skewed. I will use 50 bins in the histogram to display the distribution. 
 # 
-# Click the block of code below and hit the **Run** button above.  
-# NOTE: If the graph is not created, click the code section and hit the **Run** button again.
 
 # In[2]:
 
@@ -68,7 +63,6 @@ plt.show()
 # ### Step 3: Calculating the population mean
 # This step will calculate the mean for the population data. 
 # 
-# Click the block of code below and hit the **Run** button above.
 
 # In[4]:
 
@@ -81,9 +75,8 @@ print("Population mean =", round(pop_mean,2))
 #  
 
 # ### Step 4: Drawing one random sample from the population data and calculating the sample mean
-# This block of code randomly selects one sample (with replacement) of 50 data points from the population data. Then it calculates the sample mean. You will use the "sample" method of the dataframe to select the sample. 
+# This block of code randomly selects one sample (with replacement) of 50 data points from the population data. Then it calculates the sample mean. I will use the "sample" method of the dataframe to select the sample. 
 # 
-# Click the block of code below and hit the **Run** button above.
 
 # In[5]:
 
@@ -99,9 +92,8 @@ print("Sample mean =", round(sample_mean,2))
 #  
 
 # ### Step 5: Repeatedly drawing samples and saving the sample mean for each sample
-# You will now essentially repeat Step 4 one thousand times to select 1,000 random samples, with replacement, of size 50 from the population data. The code below contains a loop so that you can do this selection with just one click! You will save the sample mean for each sample in a Python dataframe. 
+# I will now essentially repeat Step 4 one thousand times to select 1,000 random samples, with replacement, of size 50 from the population data. The code below contains a loop so that I can do this selection with just one click! I will save the sample mean for each sample in a Python dataframe. 
 # 
-# Click the block of code below and hit the **Run** button above.
 
 # In[6]:
 
@@ -123,10 +115,7 @@ print(means_df)
 #  
 
 # ### Step 6: Creating a histogram plot of the sample means from Step 5
-# Now you will plot the data distribution of the 1,000 means from Step 5. View the plot to confirm that it approximates a Normal distribution (bell-shaped curve). Note that the original data distribution in Step 2 was skewed. However, the distribution of sample means, calculated by repeatedly drawing large samples, is approximately Normally distributed. 
-# 
-# Click the block of code below and hit the **Run** button above.  
-# NOTE: If the graph is not created, click the code section and hit the **Run** button again.
+# Now I will plot the data distribution of the 1,000 means from Step 5. View the plot to confirm that it approximates a Normal distribution (bell-shaped curve). Note that the original data distribution in Step 2 was skewed. However, the distribution of sample means, calculated by repeatedly drawing large samples, is approximately Normally distributed. 
 
 # In[7]:
 
@@ -149,9 +138,7 @@ plt.show()
 #  
 
 # ### Step 7: Mean and the standard deviation of the sample mean distribution
-# Now you will calculate the "grand" mean ("grand" because it is the mean of the 1,000 means) and the standard deviation of 1,000 sample means. Note that the distribution of sample means was approximately Normal (bell-shaped) in Step 6. Therefore, calculating the mean and the standard deviation of this distribution will allow us to calculate probabilities and critical values. 
-# 
-# Click the block of code below and hit the **Run** button above. 
+# Now I will calculate the "grand" mean ("grand" because it is the mean of the 1,000 means) and the standard deviation of 1,000 sample means. Note that the distribution of sample means was approximately Normal (bell-shaped) in Step 6. Therefore, calculating the mean and the standard deviation of this distribution will allow us to calculate probabilities and critical values. 
 
 # In[8]:
 
